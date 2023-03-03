@@ -1,0 +1,11 @@
+.side{
+    float: left;
+    height: 100vh;
+    overflow-x: scroll;
+    overflow-y: scroll;
+    overflow: scroll;
+}
+
+.side::-webkit-scrollbar{
+    display: none;
+}

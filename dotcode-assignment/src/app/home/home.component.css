@@ -1,0 +1,90 @@
+.main {
+    background-color: white;
+    height: 100%;
+}
+
+.dash {
+    font-size: large;
+    font-weight: light;
+    color: #161E54;
+}
+
+.color-div {
+    height: 120px;
+    border-radius: 10px;
+}
+
+.small-fs {
+    font-size: medium;
+    font-weight: 500;
+}
+
+.num {
+    font-size: xx-large;
+    font-weight: 600;
+}
+
+.color-1 {
+    background-color: #FFEFE7;
+}
+
+.color-2 {
+    background-color: #E8F0FB;
+}
+
+.color-3 {
+    background-color:#FDEBF9;
+}
+
+.non-color-div{
+    border: 1px solid #E0E0E0;
+    border-radius: 10px;
+}
+
+.grey-fs{
+    font-size:x-small;
+    color: #686868;
+}
+
+.grey-div{
+    background-color: #FAFAFA;
+    color: #303030;
+    font-size: smaller;
+}
+
+.non-color-div-small{
+    border: 1px solid #E0E0E0;
+    border-radius: 5px;
+}
+
+.bottom-button{
+    text-align: center;
+    color: #FF5151;
+    font-size: smaller;
+}
+
+.avatar-lg{
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    background-color: #161E54;
+}
+
+.name{
+    color: #242D35;
+    font-size: small;
+    font-weight: 500;
+}
+
+.desig{
+    font-size: x-small;
+    color: 
+    #4F5B67;
+}
+
+.non-color-div-birthday {
+    border: 1px solid #E0E0E0;
+    border-radius: 5px;
+    width: auto;
+}
+

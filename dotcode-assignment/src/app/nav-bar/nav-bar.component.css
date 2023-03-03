@@ -1,0 +1,30 @@
+.avatar{
+    height: 40px;
+    width: 40px;
+    background-color: rgb(9, 78, 205);
+    border-radius: 100%;
+}
+
+::placeholder{
+    font-size: small;
+    color: #B3B3B3;
+}
+
+input{
+    background-color: 
+    #FAFAFA;
+    color: #B3B3B3;
+    border-radius: 3px;
+    border: 1px solid #B3B3B3;
+    padding-left: 10px;
+    width: auto;
+}
+
+.avt-name{
+    color: #161E54;
+    font-size: small;
+}
+
+.icon-color{
+    color: #B2B2B2;
+}

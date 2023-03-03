@@ -1,0 +1,137 @@
+<div class="main ps-5">
+    <app-nav-bar></app-nav-bar>
+    <hr>
+    <div class="row">
+        <div class="col-md-8 mt-5 dash">
+            <div class="m-1">Dashboard</div>
+            <div class="row m-2">
+                <div class="col-md-3 color-div m-1 color-1  py-2">
+                    <div class="small-fs">
+                        Leave Request
+                    </div>
+                    <div class="num">
+                        04
+                    </div>
+
+                </div>
+                <div class="col-md-3 color-div m-1 color-2  py-2">
+                    <div class="small-fs">
+                        Attendance
+                    </div>
+                    <div class="num">
+                        40
+                    </div>
+                </div>
+                <div *ngIf="employees" class="col-md-3 color-div m-1 color-3 py-2">
+                    <div class="small-fs">Total Employees</div>
+                    <div class="num">{{employees.length}}</div>
+                </div>
+            </div>
+            <div class="row m-2">
+                <div class="col-md-5 non-color-div m-1 py-2">
+                    <div class="small-fs">
+                        PayRoll
+                    </div>
+                    <div class="num">
+                        48
+                    </div>
+
+                </div>
+                <div class="col-md-4  non-color-div py-2 m-1">
+                    <div class="small-fs">
+                        Task Request
+                    </div>
+                    <div class="num">
+                        16
+                    </div>
+                </div>
+
+            </div>
+            <div class="row m-2">
+                <div class="col-md-10">
+                    <div class="non-color-div p-2 me-4">
+                        <div class="d-flex justify-content-between mb-3">
+                            <div class="small-fs">Announcement</div>
+                            <div class="non-color-div-small grey-fs px-2 py-1">Today,13 sept 2020
+                                <span><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                        class="bi bi-caret-down" viewBox="0 0 16 16">
+                                        <path
+                                            d="M3.204 5h9.592L8 10.481 3.204 5zm-.753.659 4.796 5.48a1 1 0 0 0 1.506 0l4.796-5.48c.566-.647.106-1.659-.753-1.659H3.204a1 1 0 0 0-.753 1.659z" />
+                                    </svg></span>
+                            </div>
+                        </div>
+
+                        <div
+                            class="w-100 d-flex justify-content-between align-items-center grey-div m-1 p-2 rounded border">
+                            <div>
+                                <div>Outing schedule for every departement</div>
+                                <div class="grey-fs">5 minutes ago</div>
+                            </div>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-three-dots" viewBox="0 0 16 16">
+                                <path
+                                    d="M3 9.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3z" />
+                            </svg>
+                        </div>
+
+                        <div
+                            class="w-100 d-flex justify-content-between align-items-center grey-div m-1 p-2 rounded border">
+                            <div>
+                                <div>Meeting HR Department</div>
+                                <div class="grey-fs">Yesterday, 12:30 PM</div>
+                            </div>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-three-dots" viewBox="0 0 16 16">
+                                <path
+                                    d="M3 9.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3z" />
+                            </svg>
+                        </div>
+
+                        <div
+                            class="w-100 d-flex justify-content-between align-items-center grey-div m-1 p-2 rounded border">
+                            <div>
+                                <div>IT Department need two more talents for UX/UI Designer</div>
+                                <div class="grey-fs">Yesterday, 9:30 PM</div>
+                            </div>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-three-dots" viewBox="0 0 16 16">
+                                <path
+                                    d="M3 9.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3z" />
+                            </svg>
+                        </div>
+                        <p class="bottom-button">See All Announcements</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4 ">
+            <div class="mb-3 mt-5 small-fs">Calender</div>
+            <div class="row">
+                <div class="col-10 me-2">
+                    <app-calendar></app-calendar>
+                </div>
+            </div>
+            <div class="mb-3 mt-5 small-fs">Birthday Calender</div>
+            <div class="row ">
+
+                <div class="non-color-div-birthday m-1  py-4 text-center">
+                    <div class="d-flex justify-content-center">
+                        <div class="avatar-lg "></div>
+                    </div>
+                    <div class="name">Robert Whistable</div>
+                    <div class="desig">Product manager</div>
+                </div>
+
+                <div class="non-color-div-birthday  m-1  py-4 text-center">
+                    <div class="d-flex justify-content-center">
+                        <div class="avatar-lg "></div>
+                    </div>
+                    <div class="name">Robert Whistable</div>
+                    <div class="desig">Product manager</div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
